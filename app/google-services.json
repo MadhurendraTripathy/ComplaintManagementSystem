@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410231041908",
+    "firebase_url": "https://complaintmanagementsyste-a7757.firebaseio.com",
+    "project_id": "complaintmanagementsyste-a7757",
+    "storage_bucket": "complaintmanagementsyste-a7757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410231041908:android:9ed0ae0f58ba34be",
+        "android_client_info": {
+          "package_name": "com.example.complaintmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410231041908-30jb1s04nn254bfrghulr0mfebd4gcjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.complaintmanagementsystem",
+            "certificate_hash": "85e537afa53648fc817948a950c42023fb0fd30f"
+          }
+        },
+        {
+          "client_id": "410231041908-shlhri1i3dgvi685t8nv9s0o4qpqhpgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDysl1_sAoFlAA5i342uyoKIzOBFDSrIHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410231041908-shlhri1i3dgvi685t8nv9s0o4qpqhpgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

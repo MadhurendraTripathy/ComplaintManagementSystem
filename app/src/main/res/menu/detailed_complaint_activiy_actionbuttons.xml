@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editcomplaint_in_menu_bar_of_detailComplaint"
+        android:title="Edit Complaint"
+        />
+    <item
+        android:id="@+id/close_btn_in_menu_bar_of_detailComplaint"
+        android:title="Close Complaint"
+        />
+    <item
+        android:id="@+id/completed_btn_in_menu_bar_of_detailComplaint"
+        android:title="Completed"
+        />
+</menu>

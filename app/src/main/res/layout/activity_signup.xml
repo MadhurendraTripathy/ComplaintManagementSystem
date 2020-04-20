@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/welcome_to_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:layout_marginBottom="38dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        android:text="Hey There,\n Welcome to CMSystem"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            >
+            <TextView
+                android:id="@+id/firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name :"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:fontFamily="@font/jacques_francois"
+                />
+            <EditText
+                android:id="@+id/enterfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:backgroundTint="#660066"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            >
+            <TextView
+                android:id="@+id/lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name :"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:fontFamily="@font/jacques_francois"
+                />
+            <EditText
+                android:id="@+id/enterlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:backgroundTint="#660066"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIT ID :"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:fontFamily="@font/jacques_francois">
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/unit_id_array"
+                >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+            <TextView
+                android:id="@+id/emailforsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email ID:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:fontFamily="@font/jacques_francois"
+                />
+            <EditText
+                android:id="@+id/entered_emai_for_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="#660066"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+            <TextView
+                android:id="@+id/password_for_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:fontFamily="@font/jacques_francois"
+                />
+
+            <EditText
+                android:id="@+id/entered_password_for_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:backgroundTint="#660066"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#660066"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/already_a_member_login_text_button"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="22sp"
+        android:text="Already a Member? Log In!"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:fontFamily="@font/jacques_francois"
+        />
+</LinearLayout>

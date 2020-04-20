@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">ComplaintManagementSystem</string>
+    <string name="newUserSignup">New User? SignUp!</string>
+    <string-array name="unit_id_array">
+        <item>Select-UNIT ID</item>
+        <item>1A01</item>
+        <item>1A02</item>
+        <item>1A03</item>
+        <item>1A04</item>
+        <item>1A05</item>
+        <item>1A06</item>
+        <item>1A07</item>
+        <item>1A08</item>
+        <item>1A09</item>
+        <item>1A10</item>
+        <item>2A01</item>
+        <item>2A02</item>
+        <item>2A03</item>
+        <item>2A04</item>
+        <item>2A05</item>
+        <item>2A06</item>
+        <item>2A07</item>
+        <item>2A08</item>
+        <item>2A09</item>
+        <item>2A10</item>
+        <item>1B01</item>
+        <item>1B02</item>
+        <item>1B03</item>
+        <item>1B04</item>
+        <item>1B05</item>
+        <item>1B06</item>
+        <item>1B07</item>
+        <item>1B08</item>
+        <item>1B09</item>
+        <item>1B10</item>
+        <item>2B01</item>
+        <item>2B02</item>
+        <item>2B03</item>
+        <item>2B04</item>
+        <item>2B05</item>
+        <item>2B06</item>
+        <item>2B07</item>
+        <item>2B08</item>
+        <item>2B09</item>
+        <item>2B10</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Select-Category</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Carpenter</item>
+        <item>Cleaner</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="severity_array">
+        <item>Select-Severity</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="impact_array">
+        <item>Select-Impact</item>
+        <item>Impact-1</item>
+        <item>Impact-2</item>
+        <item>Impact-3</item>
+        <item>Impact-4</item>
+        <item>Impact-5</item>
+        <item>Impact-6</item>
+        <item>Impact-7</item>
+
+    </string-array>
+</resources>
